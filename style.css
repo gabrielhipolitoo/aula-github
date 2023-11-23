@@ -1,0 +1,36 @@
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+    width: 300px;
+    margin: 20px auto;
+    border: 2px solid #333;
+  }
+  
+  .cell {
+    width: 100px;
+    height: 100px;
+    background: #fff;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    cursor: pointer;
+  }
+  
+  .cell:hover {
+    background: #f9f9f9;
+  }
+  
+  .game-container {
+    text-align: center;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1em;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
